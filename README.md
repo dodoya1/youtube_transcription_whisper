@@ -42,11 +42,7 @@ Execute main.py with the following command.
 
     python3 main.py
 
-Next, enter the URL of the YouTube video to which you want to add subtitles. Additionally, you will need to enter the name of the folder where you want to save the output results.
-
-When selecting a language, please refer to the "ISO-639 Code" on the following website.
-
-https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+Next, enter the URL of the YouTube video you wish to transcribe. You will also need to enter the name of the folder where you want to save the output.
 
 ## Approach
 This code is designed to download a video from a YouTube URL and generate a transcription of the audio in the video. The code uses the "yt-dlp" library to download the video from the given URL and save it in a folder specified by the user. Next, the "whisper" library is used to transcribe the audio from the video and generate a text file containing the transcribed audio.
